@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Marium_FinalExam2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marium's TV APP Final Exam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ijk-tc-Kpr">
+                                <rect key="frame" x="550" y="38" width="934" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="67"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leJ-qt-d6O">
+                                <rect key="frame" x="648" y="694" width="624" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Car" backgroundImage="btn blue"/>
+                                <connections>
+                                    <segue destination="GYu-nw-e3N" kind="presentation" id="Vz6-9j-XfX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEg-qQ-pSK">
+                                <rect key="frame" x="648" y="293" width="624" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="City" backgroundImage="btn blue"/>
+                                <connections>
+                                    <segue destination="kF1-hw-x1G" kind="presentation" id="NtI-rb-O3O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63547390699386597" green="0.76636713743209839" blue="0.92578262090682983" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="2804"/>
+        </scene>
+        <!--City View Controller-->
+        <scene sceneID="aPe-s6-Bii">
+            <objects>
+                <viewController id="hge-cW-0Sn" customClass="CityViewController" customModule="Marium_FinalExam2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QPz-kg-6ET"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ria-10-GhY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YUY-fZ-lUa">
+                        <rect key="frame" x="0.0" y="0.0" width="1285" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge4-3V-BUd">
+                                <rect key="frame" x="0.0" y="0.0" width="1285" height="1080"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BvB-ta-2zH"/>
+                    </view>
+                    <connections>
+                        <outlet property="myMapView" destination="Ge4-3V-BUd" id="kh3-4W-XWG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HPy-eD-qw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2307" y="-348"/>
+        </scene>
+        <!--Select a city!-->
+        <scene sceneID="xJg-aj-O1z">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="Oge-8M-AcS" customClass="CityTableViewController" customModule="Marium_FinalExam2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="66" sectionFooterHeight="66" id="5F9-y5-hVR">
+                        <rect key="frame" x="0.0" y="0.0" width="634" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cityCell" id="htY-bx-ehv" customClass="CityTableViewCell" customModule="Marium_FinalExam2020" customModuleProvider="target">
+                                <rect key="frame" x="90" y="66" width="499" height="66"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="htY-bx-ehv" id="v5v-c8-AIX">
+                                    <rect key="frame" x="0.0" y="0.0" width="499" height="66"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Dx-bq-XSw">
+                                            <rect key="frame" x="8" y="0.0" width="174" height="66"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGI-g7-IHM">
+                                            <rect key="frame" x="204" y="10" width="303" height="46"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imgCity" destination="7Dx-bq-XSw" id="Xfq-ft-sCF"/>
+                                    <outlet property="lblCity" destination="hGI-g7-IHM" id="Dct-ki-r0o"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Oge-8M-AcS" id="cU3-SN-Xcx"/>
+                            <outlet property="delegate" destination="Oge-8M-AcS" id="j0H-Tv-6Vw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Select a city!" id="Y9K-jm-xSm"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fmy-hu-fwr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4362" y="-2089"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="s12-bc-pM6">
+            <objects>
+                <navigationController id="fAc-aO-sIa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2VH-CC-1wA">
+                        <rect key="frame" x="0.0" y="0.0" width="634" height="145"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Oge-8M-AcS" kind="relationship" relationship="rootViewController" id="vdK-XG-dY0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="afc-Pu-ECM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem title="Back" id="SEY-y6-j7p">
+                    <connections>
+                        <segue destination="qkI-u3-5ca" kind="unwind" unwindAction="unwindToThisViewControllerWithSegue:" id="ngF-2l-OEt"/>
+                    </connections>
+                </barButtonItem>
+                <exit id="qkI-u3-5ca" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2307" y="-2089"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="iDc-XD-axp">
+            <objects>
+                <splitViewController id="kF1-hw-x1G" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="fAc-aO-sIa" kind="relationship" relationship="masterViewController" id="ozF-Mz-KkF"/>
+                        <segue destination="hge-cW-0Sn" kind="relationship" relationship="detailViewController" id="sdC-by-SFj"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XUX-el-Suy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-208" y="-2089"/>
+        </scene>
+        <!--Car View Controller-->
+        <scene sceneID="uGz-RX-IqV">
+            <objects>
+                <viewController id="GYu-nw-e3N" customClass="CarViewController" customModule="Marium_FinalExam2020" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DoH-iN-xy0"/>
+                        <viewControllerLayoutGuide type="bottom" id="zAS-Uy-zGH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VkK-JY-UME">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="w8I-3h-3C0">
+                                <rect key="frame" x="0.0" y="145" width="1920" height="935"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OZu-Hs-jyz">
+                                    <size key="itemSize" width="865" height="488"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FeaturedCell" id="R3v-Wp-QhK" customClass="CarItemsCollectionViewCell" customModule="Marium_FinalExam2020" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="865" height="488"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="865" height="488"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BEl-hI-pHQ">
+                                                    <rect key="frame" x="62" y="20" width="734" height="319"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQc-fm-jTc">
+                                                    <rect key="frame" x="162" y="393" width="540" height="46"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="featuredImage" destination="BEl-hI-pHQ" id="4fh-zc-ow6"/>
+                                            <outlet property="lblCar" destination="lQc-fm-jTc" id="K3w-qB-v0x"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="GYu-nw-e3N" id="UZu-lK-zaR"/>
+                                    <outlet property="delegate" destination="GYu-nw-e3N" id="c0L-BQ-dp9"/>
+                                </connections>
+                            </collectionView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ha-JO-Rgz">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="145"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Car Collection " id="v0X-Xn-vlx">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="rv4-Po-nxR">
+                                            <connections>
+                                                <segue destination="8X0-zM-jP5" kind="unwind" unwindAction="unwindToThisViewControllerWithSegue:" id="aNQ-rV-swz"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RRv-PN-SAT"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionViewCar" destination="w8I-3h-3C0" id="HRh-Dx-sB8"/>
+                        <outlet property="myCollection" destination="w8I-3h-3C0" id="ouX-On-YVX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVU-OV-M6k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="8X0-zM-jP5" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="4362" y="2804"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn blue" width="59.668506622314453" height="26.850828170776367"/>
+    </resources>
+</document>

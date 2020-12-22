@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA4CA48258545F100B6F6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA47258545F100B6F6BE /* AppDelegate.swift */; };
+		AEA4CA4A258545F100B6F6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA49258545F100B6F6BE /* ViewController.swift */; };
+		AEA4CA4D258545F100B6F6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA4B258545F100B6F6BE /* Main.storyboard */; };
+		AEA4CA4F258545F600B6F6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA4E258545F600B6F6BE /* Assets.xcassets */; };
+		AEA4CA582585473400B6F6BE /* f_homepage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA572585473400B6F6BE /* f_homepage.jpg */; };
+		AEA4CA5A258548B000B6F6BE /* carBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA59258548B000B6F6BE /* carBG.jpg */; };
+		AEA4CA5C25854B6300B6F6BE /* btn blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA5B25854B6300B6F6BE /* btn blue.png */; };
+		AEA4CA5E25854F3C00B6F6BE /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA5D25854F3C00B6F6BE /* CarDetails.swift */; };
+		AEA4CA6025854F6100B6F6BE /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA5F25854F6100B6F6BE /* CarViewController.swift */; };
+		AEA4CA6225854FDC00B6F6BE /* CarItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA6125854FDC00B6F6BE /* CarItemsCollectionViewCell.swift */; };
+		AEA4CA6B2585505300B6F6BE /* SanFrancisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA662585505200B6F6BE /* SanFrancisco.jpg */; };
+		AEA4CA6C2585505300B6F6BE /* Vancouver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA672585505200B6F6BE /* Vancouver.jpg */; };
+		AEA4CA6D2585505300B6F6BE /* Nyc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA682585505200B6F6BE /* Nyc.jpg */; };
+		AEA4CA6E2585505300B6F6BE /* Montreal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA692585505200B6F6BE /* Montreal.jpg */; };
+		AEA4CA6F2585505300B6F6BE /* toronto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA6A2585505300B6F6BE /* toronto.jpg */; };
+		AEA4CA742585598800B6F6BE /* Ford.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA702585598700B6F6BE /* Ford.jpg */; };
+		AEA4CA752585598800B6F6BE /* Acura.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA712585598800B6F6BE /* Acura.png */; };
+		AEA4CA762585598800B6F6BE /* Bentley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA722585598800B6F6BE /* Bentley.jpg */; };
+		AEA4CA772585598800B6F6BE /* audi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA4CA732585598800B6F6BE /* audi.jpg */; };
+		AEA4CA7925859F6600B6F6BE /* CityDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA7825859F6600B6F6BE /* CityDetails.swift */; };
+		AEA4CA7B2585E03A00B6F6BE /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA7A2585E03A00B6F6BE /* CityTableViewCell.swift */; };
+		AEA4CA7D2585E06400B6F6BE /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA7C2585E06400B6F6BE /* CityTableViewController.swift */; };
+		AEA4CA7F2585E08900B6F6BE /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4CA7E2585E08900B6F6BE /* CityViewController.swift */; };
+		AEA4CA822585E84200B6F6BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4CA812585E84200B6F6BE /* CoreLocation.framework */; };
+		AEA4CA842585E84A00B6F6BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4CA832585E84A00B6F6BE /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEA4CA44258545F100B6F6BE /* Marium_FinalExam2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marium_FinalExam2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA4CA47258545F100B6F6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEA4CA49258545F100B6F6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEA4CA4C258545F100B6F6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA4CA4E258545F600B6F6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA4CA50258545F600B6F6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA4CA572585473400B6F6BE /* f_homepage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f_homepage.jpg; sourceTree = "<group>"; };
+		AEA4CA59258548B000B6F6BE /* carBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carBG.jpg; sourceTree = "<group>"; };
+		AEA4CA5B25854B6300B6F6BE /* btn blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn blue.png"; sourceTree = "<group>"; };
+		AEA4CA5D25854F3C00B6F6BE /* CarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
+		AEA4CA5F25854F6100B6F6BE /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		AEA4CA6125854FDC00B6F6BE /* CarItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AEA4CA662585505200B6F6BE /* SanFrancisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanFrancisco.jpg; sourceTree = "<group>"; };
+		AEA4CA672585505200B6F6BE /* Vancouver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vancouver.jpg; sourceTree = "<group>"; };
+		AEA4CA682585505200B6F6BE /* Nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nyc.jpg; sourceTree = "<group>"; };
+		AEA4CA692585505200B6F6BE /* Montreal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Montreal.jpg; sourceTree = "<group>"; };
+		AEA4CA6A2585505300B6F6BE /* toronto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toronto.jpg; sourceTree = "<group>"; };
+		AEA4CA702585598700B6F6BE /* Ford.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ford.jpg; sourceTree = "<group>"; };
+		AEA4CA712585598800B6F6BE /* Acura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acura.png; sourceTree = "<group>"; };
+		AEA4CA722585598800B6F6BE /* Bentley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bentley.jpg; sourceTree = "<group>"; };
+		AEA4CA732585598800B6F6BE /* audi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audi.jpg; sourceTree = "<group>"; };
+		AEA4CA7825859F6600B6F6BE /* CityDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetails.swift; sourceTree = "<group>"; };
+		AEA4CA7A2585E03A00B6F6BE /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		AEA4CA7C2585E06400B6F6BE /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		AEA4CA7E2585E08900B6F6BE /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		AEA4CA812585E84200B6F6BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AEA4CA832585E84A00B6F6BE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA4CA41258545F100B6F6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA4CA842585E84A00B6F6BE /* MapKit.framework in Frameworks */,
+				AEA4CA822585E84200B6F6BE /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA4CA3B258545F100B6F6BE = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA46258545F100B6F6BE /* Marium_FinalExam2020 */,
+				AEA4CA45258545F100B6F6BE /* Products */,
+				AEA4CA802585E84100B6F6BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA4CA45258545F100B6F6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA44258545F100B6F6BE /* Marium_FinalExam2020.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA4CA46258545F100B6F6BE /* Marium_FinalExam2020 */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA652585502200B6F6BE /* StoryBoards */,
+				AEA4CA642585500400B6F6BE /* View Controllers */,
+				AEA4CA6325854FFC00B6F6BE /* Classes */,
+				AEA4CA562585471E00B6F6BE /* Images */,
+				AEA4CA47258545F100B6F6BE /* AppDelegate.swift */,
+				AEA4CA4E258545F600B6F6BE /* Assets.xcassets */,
+				AEA4CA50258545F600B6F6BE /* Info.plist */,
+			);
+			path = Marium_FinalExam2020;
+			sourceTree = "<group>";
+		};
+		AEA4CA562585471E00B6F6BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA712585598800B6F6BE /* Acura.png */,
+				AEA4CA732585598800B6F6BE /* audi.jpg */,
+				AEA4CA722585598800B6F6BE /* Bentley.jpg */,
+				AEA4CA702585598700B6F6BE /* Ford.jpg */,
+				AEA4CA692585505200B6F6BE /* Montreal.jpg */,
+				AEA4CA682585505200B6F6BE /* Nyc.jpg */,
+				AEA4CA662585505200B6F6BE /* SanFrancisco.jpg */,
+				AEA4CA6A2585505300B6F6BE /* toronto.jpg */,
+				AEA4CA672585505200B6F6BE /* Vancouver.jpg */,
+				AEA4CA5B25854B6300B6F6BE /* btn blue.png */,
+				AEA4CA59258548B000B6F6BE /* carBG.jpg */,
+				AEA4CA572585473400B6F6BE /* f_homepage.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AEA4CA6325854FFC00B6F6BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA5D25854F3C00B6F6BE /* CarDetails.swift */,
+				AEA4CA6125854FDC00B6F6BE /* CarItemsCollectionViewCell.swift */,
+				AEA4CA7825859F6600B6F6BE /* CityDetails.swift */,
+				AEA4CA7A2585E03A00B6F6BE /* CityTableViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEA4CA642585500400B6F6BE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA5F25854F6100B6F6BE /* CarViewController.swift */,
+				AEA4CA49258545F100B6F6BE /* ViewController.swift */,
+				AEA4CA7C2585E06400B6F6BE /* CityTableViewController.swift */,
+				AEA4CA7E2585E08900B6F6BE /* CityViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AEA4CA652585502200B6F6BE /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA4B258545F100B6F6BE /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		AEA4CA802585E84100B6F6BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4CA832585E84A00B6F6BE /* MapKit.framework */,
+				AEA4CA812585E84200B6F6BE /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA4CA43258545F100B6F6BE /* Marium_FinalExam2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA4CA53258545F600B6F6BE /* Build configuration list for PBXNativeTarget "Marium_FinalExam2020" */;
+			buildPhases = (
+				AEA4CA40258545F100B6F6BE /* Sources */,
+				AEA4CA41258545F100B6F6BE /* Frameworks */,
+				AEA4CA42258545F100B6F6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marium_FinalExam2020;
+			productName = Marium_FinalExam2020;
+			productReference = AEA4CA44258545F100B6F6BE /* Marium_FinalExam2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA4CA3C258545F100B6F6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Xcode User";
+				TargetAttributes = {
+					AEA4CA43258545F100B6F6BE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = AEA4CA3F258545F100B6F6BE /* Build configuration list for PBXProject "Marium_FinalExam2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA4CA3B258545F100B6F6BE;
+			productRefGroup = AEA4CA45258545F100B6F6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA4CA43258545F100B6F6BE /* Marium_FinalExam2020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA4CA42258545F100B6F6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA4CA762585598800B6F6BE /* Bentley.jpg in Resources */,
+				AEA4CA752585598800B6F6BE /* Acura.png in Resources */,
+				AEA4CA742585598800B6F6BE /* Ford.jpg in Resources */,
+				AEA4CA6D2585505300B6F6BE /* Nyc.jpg in Resources */,
+				AEA4CA772585598800B6F6BE /* audi.jpg in Resources */,
+				AEA4CA4F258545F600B6F6BE /* Assets.xcassets in Resources */,
+				AEA4CA6E2585505300B6F6BE /* Montreal.jpg in Resources */,
+				AEA4CA6B2585505300B6F6BE /* SanFrancisco.jpg in Resources */,
+				AEA4CA6C2585505300B6F6BE /* Vancouver.jpg in Resources */,
+				AEA4CA582585473400B6F6BE /* f_homepage.jpg in Resources */,
+				AEA4CA5C25854B6300B6F6BE /* btn blue.png in Resources */,
+				AEA4CA6F2585505300B6F6BE /* toronto.jpg in Resources */,
+				AEA4CA4D258545F100B6F6BE /* Main.storyboard in Resources */,
+				AEA4CA5A258548B000B6F6BE /* carBG.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA4CA40258545F100B6F6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA4CA7D2585E06400B6F6BE /* CityTableViewController.swift in Sources */,
+				AEA4CA6225854FDC00B6F6BE /* CarItemsCollectionViewCell.swift in Sources */,
+				AEA4CA7B2585E03A00B6F6BE /* CityTableViewCell.swift in Sources */,
+				AEA4CA7925859F6600B6F6BE /* CityDetails.swift in Sources */,
+				AEA4CA5E25854F3C00B6F6BE /* CarDetails.swift in Sources */,
+				AEA4CA7F2585E08900B6F6BE /* CityViewController.swift in Sources */,
+				AEA4CA4A258545F100B6F6BE /* ViewController.swift in Sources */,
+				AEA4CA48258545F100B6F6BE /* AppDelegate.swift in Sources */,
+				AEA4CA6025854F6100B6F6BE /* CarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEA4CA4B258545F100B6F6BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA4CA4C258545F100B6F6BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEA4CA51258545F600B6F6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+			};
+			name = Debug;
+		};
+		AEA4CA52258545F600B6F6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA4CA54258545F600B6F6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marium_FinalExam2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-FinalExam2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		AEA4CA55258545F600B6F6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Marium_FinalExam2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prog39856.Marium-FinalExam2020";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA4CA3F258545F100B6F6BE /* Build configuration list for PBXProject "Marium_FinalExam2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA4CA51258545F600B6F6BE /* Debug */,
+				AEA4CA52258545F600B6F6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA4CA53258545F600B6F6BE /* Build configuration list for PBXNativeTarget "Marium_FinalExam2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA4CA54258545F600B6F6BE /* Debug */,
+				AEA4CA55258545F600B6F6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA4CA3C258545F100B6F6BE /* Project object */;
+}
